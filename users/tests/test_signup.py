@@ -11,7 +11,6 @@ class SignupEndpointTests(APITestCase):
     def test_signup_create_successfully(self):
         payload = {
             "username": "newuser",
-            
             "first_name": "New",
             "last_name": "User",
             "email": "newuser@example.com",
